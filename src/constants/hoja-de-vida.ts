@@ -24,7 +24,7 @@ export const perfil = {
   titulacion: 'Analista & Programador',
   resumen:
     'Estudiante del programa Tecnólogo en Análisis y Desarrollo de Software del SENA, con formación técnica previa en desarrollo de software. Cuenta con conocimientos en programación, desarrollo web, bases de datos y herramientas tecnológicas. Se caracteriza por su disposición para aprender, responsabilidad, puntualidad, trabajo en equipo y capacidad para resolver problemas. Busca una oportunidad para adquirir experiencia y aportar sus conocimientos.',
-  correo: 'santi2024sr@gmail.com',
+  correo: 'kc2024sr@gmail.com',
   telefono: '310 4792949',
   github: 'https://github.com/kc2024sr-crypto',
 } as const;
