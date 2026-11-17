@@ -18,8 +18,12 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Inicio',
-          tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name={focused ? 'person' : 'person-outline'} size={size} color={color} />
+          tabBarIcon: ({ size, focused }) => (
+            <Ionicons
+              name={focused ? 'person' : 'person-outline'}
+              size={size}
+              color={focused ? '#176B3A' : '#75837A'}
+            />
           ),
         }}
       />
@@ -27,8 +31,12 @@ export default function TabLayout() {
         name="estudios"
         options={{
           title: 'Estudios',
-          tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name={focused ? 'school' : 'school-outline'} size={size} color={color} />
+          tabBarIcon: ({ size, focused }) => (
+            <Ionicons
+              name={focused ? 'school' : 'school-outline'}
+              size={size}
+              color={focused ? '#176B3A' : '#75837A'}
+            />
           ),
         }}
       />
@@ -36,11 +44,11 @@ export default function TabLayout() {
         name="experiencia"
         options={{
           title: 'Experiencia',
-          tabBarIcon: ({ color, size, focused }) => (
+          tabBarIcon: ({ size, focused }) => (
             <Ionicons
               name={focused ? 'briefcase' : 'briefcase-outline'}
               size={size}
-              color={color}
+              color={focused ? '#176B3A' : '#75837A'}
             />
           ),
         }}
@@ -49,8 +57,12 @@ export default function TabLayout() {
         name="hobbies"
         options={{
           title: 'Hobbies',
-          tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name={focused ? 'heart' : 'heart-outline'} size={size} color={color} />
+          tabBarIcon: ({ size, focused }) => (
+            <Ionicons
+              name={focused ? 'heart' : 'heart-outline'}
+              size={size}
+              color={focused ? '#176B3A' : '#75837A'}
+            />
           ),
         }}
       />

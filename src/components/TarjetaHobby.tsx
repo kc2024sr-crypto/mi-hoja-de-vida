@@ -1,4 +1,5 @@
-import { Pressable, StyleSheet, Text, View, type ComponentProps } from 'react-native';
+import type { ComponentProps } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 type IconName = ComponentProps<typeof Ionicons>['name'];
